@@ -1,0 +1,77 @@
+*{
+    font-family: "sans-serif";
+    background-image: url("../images/background.png");
+    background-repeat: repeat;
+    color: white;
+
+}
+
+.navigate{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.navigate a{
+    text-decoration: none;
+}
+
+.navigate a:hover{
+    text-decoration: underline;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#body-create-note, #body-read-note{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+input{
+    background: white;
+    color: black;
+}
+
+textarea{
+    background: white;
+    color: black;
+}
+
+.noteButton{
+    background: black;
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#body-read-note{
+    background: transparent;
+
+}
+.editIcon{
+    width: 20px;
+    height: 20px;
+    background: transparent;
+}
+
+.deleteIcon{
+    cursor: pointer;
+    z-index: 20;
+}

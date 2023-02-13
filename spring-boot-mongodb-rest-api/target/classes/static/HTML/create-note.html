@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="/JS/index.js"></script>
+</head>
+<body>
+<div class="header">
+    Creating a Note
+</div>
+<div class="navigate">
+    <a href="/">Home</a>
+    <a href="/see-notes.html">See Notes</a>
+</div>
+<div id="body-create-note">
+    <input id="name" placeholder="Enter your name: " />
+    <input id="title" placeholder="Enter title: " type="text" />
+    <textarea id="content"></textarea>
+    <input onclick="saveNote()" type="submit" value="Save" />
+</div>
+</body>
+</html>
